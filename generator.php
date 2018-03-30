@@ -2,14 +2,7 @@
 
 namespace app\datagen;
 
-include_once('UserNameGen.php');
-include_once('UserEmailGen.php');
-include_once('UserPasswordGen.php');
-include_once('UserPhoneGen.php');
-include_once('IncorrectUserNameGen.php');
-include_once('IncorrectUserEmailGen.php');
-include_once('IncorrectUserPasswordGen.php');
-include_once('IncorrectUserPhoneGen.php');
+include_once('includes.php');
 
 /**
  * @param $param
@@ -29,48 +22,6 @@ function _genClassName($param)
 }
 
 $schema = file_get_contents('schema.json');
-//    "{
-//    \"title\": \"Mocking Data\",
-//    \"type\": \"object\",
-//    \"properties\": {
-//        \"user_name\": {
-//            \"description\": \"Actually it is a full user name such as Vasya Pupkin. \",
-//            \"type\": \"string\"
-//        },
-//        \"user_email\": {
-//            \"description\": \"Valid email address related to user_name in sokolov.net domain\",
-//            \"type\": \"string\"
-//        },
-//        \"user_password\": {
-//            \"description\": \"May be equal to email\",
-//            \"type\": \"string\"
-//        },
-//        \"user_phone\": {
-//            \"description\": \"Phone number. See MSISDN\",
-//            \"type\": \"string\"
-//        },
-//        \"incorrect_user_name\": {
-//            \"description\": \"May be empty\",
-//            \"type\": \"string\"
-//        },
-//        \"incorrect_user_email\": {
-//            \"description\": \"incorrect email\",
-//            \"type\": \"string\"
-//        },
-//        \"incorrect_user_password\": {
-//            \"description\": \"May be empty\",
-//            \"type\": \"string\"
-//        },
-//        \"incorrect_user_phone\": {
-//            \"description\": \"Phone number. See MSISDN\",
-//            \"type\": \"string\"
-//        }
-//    },
-//    \"required\": [
-//        \"user_name\", \"user_email\", \"user_password\", \"user_name\",
-//        \"incorrect_user_name\", \"incorrect_user_email\", \"incorrect_user_password\", \"incorrect_user_name\"
-//    ]
-//}";
 
 $decoded_schema = json_decode($schema, true);
 
@@ -84,6 +35,7 @@ preg_match_all("/[a-zA-Z0-9]+/", $decoded_schema['title'], $file_name);
 $file_name = implode('', $file_name['0']);
 $file_name = mb_strtolower($file_name);
 $file_name = trim($file_name . ".json");
+//$file_name = 'results/' . $file_name;
 
 $required = $decoded_schema['required'];
 $properties = $decoded_schema['properties'];
@@ -121,3 +73,4 @@ foreach ($splitted['0'] as $key => $string) {
 
 fwrite($fp, ']' . PHP_EOL);
 fclose($fp);
+//chmod('results/' . $file_name, 755);
