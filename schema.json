@@ -1,0 +1,128 @@
+{
+    "title": "Mocking Data",
+    "type": "object",
+    "properties": {
+        "user_name": {
+            "description": "Actually it is a full user name such as Vasya Pupkin. ",
+            "type": "string"
+        },
+        "user_email": {
+            "description": "Valid email address related to user_name in sokolov.net domain",
+            "type": "string"
+        },
+        "user_password": {
+            "description": "May be equal to email",
+            "type": "string"
+        },
+        "user_phone": {
+            "description": "Phone number. See MSISDN",
+            "type": "string"
+        },
+
+        "incorrect_user_name": {
+            "description": "May be empty",
+            "type": "string"
+        },
+        "incorrect_user_email": {
+            "description": "incorrect email",
+            "type": "string"
+        },
+        "incorrect_user_password": {
+            "description": "May be empty or too short",
+            "type": "string"
+        },
+        "incorrect_user_phone": {
+            "description": "Phone number. See MSISDN",
+            "type": "string"
+        },
+
+        "login": {
+            "description": "Same as correct email",
+            "type": "string"
+        },
+        "password": {
+            "description": "same as correct password",
+            "type": "string"
+        },
+        "incorrect_login": {
+            "description": "Same as incorrect email",
+            "type": "string"
+        },
+        "incorrect_password": {
+            "description": "same as incorrect password",
+            "type": "string"
+        },
+
+        "new_user_email": {
+            "description": "correct email",
+            "type": "string"
+        },
+        "new_user_password": {
+            "description": "correct password",
+            "type": "string"
+        },
+        "new_user_name": {
+            "description": "correct user name",
+            "type": "string"
+        },
+        "new_user_phone": {
+            "description": "correct phone number by MSISDN",
+            "type": "string"
+        },
+        "new_user_birth_date": {
+            "description": "unixtime",
+            "type": "integer"
+        },
+        "new_user_gender": {
+            "description": "enum-field: MALE or FEMALE",
+            "type": "string"
+        },
+        "new_user_news": {
+            "description": "News subscription",
+            "type": "boolean"
+        },
+        "new_user_notifications": {
+            "description": "Push-notifications",
+            "type": "boolean"
+        },
+        "incorrect_new_user_email": {
+            "description": "correct email",
+            "type": "string"
+        },
+        "incorrect_new_user_password": {
+            "description": "correct password",
+            "type": "string"
+        },
+        "incorrect_new_user_name": {
+            "description": "correct user name",
+            "type": "string"
+        },
+        "incorrect_new_user_phone": {
+            "description": "correct phone number by MSISDN",
+            "type": "string"
+        },
+        "incorrect_new_user_birth_date": {
+            "description": "unixtime",
+            "type": "integer"
+        },
+        "incorrect_new_user_gender": {
+            "description": "enum-field: MALE or FEMALE",
+            "type": "string"
+        },
+        "incorrect_new_user_news": {
+            "description": "News subscription",
+            "type": "boolean"
+        },
+        "incorrect_new_user_notifications": {
+            "description": "Push-notifications",
+            "type": "boolean"
+        }
+    },
+    "required": [
+        "user_name", "user_email", "user_password", "user_name",
+        "incorrect_user_name", "incorrect_user_email", "incorrect_user_password", "incorrect_user_name",
+        "login", "password", "incorrect_login", "incorrect_password",
+        "new_user_email", "new_user_password", "new_user_name", "new_user_phone", "new_user_birth_date", "new_user_gender", "new_user_news", "new_user_notofications",
+        "incorrect_new_user_email", "incorrect_new_user_password", "incorrect_new_user_name", "incorrect_new_user_phone", "incorrect_new_user_birth_date", "new_user_gender", "new_user_news", "new_user_notofications"
+    ]
+}
