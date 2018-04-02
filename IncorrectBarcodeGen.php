@@ -8,8 +8,11 @@
 
 namespace datagen;
 
-include_once('UserNameGen.php');
 
-class NewUserNameGen extends UserNameGen
+class IncorrectBarcodeGen
 {
+    public function gen()
+    {
+        return 'Dcd-df$';
+    }
 }

@@ -116,6 +116,26 @@
         "incorrect_new_user_notifications": {
             "description": "Push-notifications",
             "type": "boolean"
+        },
+        "barcode": {
+            "type": "string",
+            "description": "get random value from file attached to task"
+        },
+        "article": {
+            "type": "string",
+            "description": "get random value from file attached to task"
+        },
+        "incorrect_barcode": {
+            "type": "string",
+            "description": "no digits, too short, too long, specials chars"
+        },
+        "incorrect_article": {
+            "type": "string",
+            "description": "no digits, too short, too long, specials chars"
+        },
+        "non_exists_barcode": {
+            "type": "string",
+            "description": "get random correct value but not form file"
         }
     },
     "required": [

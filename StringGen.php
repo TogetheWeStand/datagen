@@ -6,7 +6,7 @@
  * Time: 9:08
  */
 
-namespace app\datagen;
+namespace datagen;
 
 class StringGen
 {

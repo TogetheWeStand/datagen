@@ -6,7 +6,7 @@
  * Time: 9:41
  */
 
-namespace app\datagen;
+namespace datagen;
 
 include_once('StringGen.php');
 

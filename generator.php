@@ -1,6 +1,6 @@
 <?php
 
-namespace app\datagen;
+namespace datagen;
 
 include_once('includes.php');
 
@@ -18,7 +18,7 @@ function _genClassName($param)
         $className .= ucfirst($subName);
     }
 
-    return 'app\datagen\\' . $className . $classPostfix;
+    return 'datagen\\' . $className . $classPostfix;
 }
 
 $schema = file_get_contents('schema.json');

@@ -8,8 +8,11 @@
 
 namespace datagen;
 
-include_once('UserNameGen.php');
 
-class NewUserNameGen extends UserNameGen
+class IncorrectArticleGen
 {
+    public function gen()
+    {
+        return 'fgffPd~.';
+    }
 }

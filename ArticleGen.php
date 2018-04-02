@@ -8,10 +8,11 @@
 
 namespace datagen;
 
-class IncorrectNewUserBirthDateGen
+
+class ArticleGen extends GetFileDataByRegExp
 {
     public function gen()
     {
-        return "20-12-1987";
+        return parent::get("/\"ARTICLE\":\"([0-9]+)\",/");
     }
 }
