@@ -10,7 +10,7 @@ namespace datagen;
 
 class NewUserGenderGen
 {
-    private $gender = ['male', 'female'];
+    private $gender = ['MALE', 'FEMALE'];
 
     public function gen()
     {

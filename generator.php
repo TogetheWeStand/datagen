@@ -4,6 +4,9 @@ namespace datagen;
 
 include_once('includes.php');
 
+$cli = !isset($_GET['count']);
+$count = $cli ? $argv['1'] : $_GET['count'];
+
 /**
  * @param $param
  * @return string
@@ -35,19 +38,17 @@ preg_match_all("/[a-zA-Z0-9]+/", $decoded_schema['title'], $file_name);
 $file_name = implode('', $file_name['0']);
 $file_name = mb_strtolower($file_name);
 $file_name = trim($file_name . ".json");
-//$file_name = 'results/' . $file_name;
 
-$required = $decoded_schema['required'];
 $properties = $decoded_schema['properties'];
 $result = null;
 $set = null;
 $splitter = ',';
 
-for ($i = 0; $i < $argv['1']; $i++) {
+for ($i = 0; $i < $count; $i++) {
     foreach ($properties as $key => $prop) {
 
         $className = _genClassName($key);
-        $model = new $className(null, null, null, $set['user_name']);
+        $model = new $className(null, null, null, $set['user_name'], $set['user_password']);
         $set[$key] = $model->gen();
     }
 
@@ -67,10 +68,14 @@ foreach ($splitted['0'] as $key => $string) {
         $splitter = '';
     }
 
+    if (!$cli) {
+        echo $string . "
+        ";
+    }
+
     fwrite($fp, $string . $splitter . PHP_EOL);
     $count--;
 }
 
 fwrite($fp, ']' . PHP_EOL);
 fclose($fp);
-//chmod('results/' . $file_name, 755);
