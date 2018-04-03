@@ -8,9 +8,15 @@
 
 namespace datagen;
 
-
+/**
+ * Class BarcodeGen
+ * @package datagen
+ */
 class BarcodeGen extends GetFileDataByRegExp
 {
+    /**
+     * @return mixed
+     */
     public function gen()
     {
         return parent::get("/{\"BARCODE\":\"([0-9]+)\",/");

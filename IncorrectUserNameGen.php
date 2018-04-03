@@ -8,8 +8,15 @@
 
 namespace datagen;
 
+/**
+ * Class IncorrectUserNameGen
+ * @package datagen
+ */
 class IncorrectUserNameGen
 {
+    /**
+     * @return int|string
+     */
     public function gen()
     {
         if (mt_rand(0, 1)) {

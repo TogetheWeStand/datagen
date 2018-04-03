@@ -8,8 +8,10 @@
 
 namespace datagen;
 
-include_once('IncorrectUserPasswordGen.php');
-
+/**
+ * Class IncorrectNewUserPasswordGen
+ * @package datagen
+ */
 class IncorrectNewUserPasswordGen extends IncorrectUserPasswordGen
 {
 }

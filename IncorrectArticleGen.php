@@ -8,9 +8,15 @@
 
 namespace datagen;
 
-
+/**
+ * Class IncorrectArticleGen
+ * @package datagen
+ */
 class IncorrectArticleGen
 {
+    /**
+     * @return string
+     */
     public function gen()
     {
         return 'fgffPd~.';

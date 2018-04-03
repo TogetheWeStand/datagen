@@ -1,5 +1,6 @@
 <?php
 
+include_once('StringGen.php');
 include_once('UserNameGen.php');
 include_once('UserEmailGen.php');
 include_once('UserPasswordGen.php');
@@ -14,6 +15,10 @@ include_once('NewUserBirthDateGen.php');
 include_once('NewUserGenderGen.php');
 include_once('NewUserNewsGen.php');
 include_once('NewUserNotificationsGen.php');
+include_once('IncorrectUserEmailGen.php');
+include_once('IncorrectUserPasswordGen.php');
+include_once('IncorrectUserNameGen.php');
+include_once('IncorrectUserPhoneGen.php');
 include_once('IncorrectLoginGen.php');
 include_once('IncorrectPasswordGen.php');
 include_once('IncorrectNewUserNameGen.php');
@@ -24,10 +29,6 @@ include_once('IncorrectNewUserBirthDateGen.php');
 include_once('IncorrectNewUserGenderGen.php');
 include_once('IncorrectNewUserNewsGen.php');
 include_once('IncorrectNewUserNotificationsGen.php');
-include_once('IncorrectUserNameGen.php');
-include_once('IncorrectUserEmailGen.php');
-include_once('IncorrectUserPasswordGen.php');
-include_once('IncorrectUserPhoneGen.php');
 include_once('GetFileDataByRegExp.php');
 include_once('ArticleGen.php');
 include_once('BarcodeGen.php');

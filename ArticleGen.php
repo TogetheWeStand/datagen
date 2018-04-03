@@ -8,9 +8,15 @@
 
 namespace datagen;
 
-
+/**
+ * Class ArticleGen
+ * @package datagen
+ */
 class ArticleGen extends GetFileDataByRegExp
 {
+    /**
+     * @return mixed
+     */
     public function gen()
     {
         return parent::get("/\"ARTICLE\":\"([0-9]+)\",/");

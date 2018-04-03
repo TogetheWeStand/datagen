@@ -1,5 +1,24 @@
 <?php
 
+/**
+ * This start file for test data generator.
+ * Envisaged two modes for start this script - cli and fpm.
+ *
+ * For start in cli mode type in command line - php generator.php 'n',
+ * where 'n' it is a number of sets of test data need to be generate.
+ *
+ * For start in fpm mode type in request string of browser -
+ * <host domain>/generator.php/?count='n', where 'n' it is a number
+ * of sets of test data need to be generate.
+ *
+ * Schema must be saved in schema.json file in root directory of
+ * application.
+ *
+ * Generated data will be located in
+ * <schema name in lower case without underscores and spaces>.json
+ * in root directory of application.
+ */
+
 namespace datagen;
 
 include_once('includes.php');
@@ -8,8 +27,8 @@ $cli = !isset($_GET['count']);
 $count = $cli ? $argv['1'] : $_GET['count'];
 
 /**
- * @param $param
- * @return string
+ * @param string $param param name from schema
+ * @return string full path to class file
  */
 function _genClassName($param)
 {

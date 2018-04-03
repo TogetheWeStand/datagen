@@ -8,8 +8,10 @@
 
 namespace datagen;
 
-include_once('UserPasswordGen.php');
-
+/**
+ * Class NewUserPasswordGen
+ * @package datagen
+ */
 class NewUserPasswordGen extends UserPasswordGen
 {
 }

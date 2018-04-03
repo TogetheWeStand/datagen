@@ -8,8 +8,15 @@
 
 namespace datagen;
 
+/**
+ * Class IncorrectNewUserGenderGen
+ * @package datagen
+ */
 class IncorrectNewUserGenderGen
 {
+    /**
+     * @return string
+     */
     public function gen()
     {
         return 'mefale';

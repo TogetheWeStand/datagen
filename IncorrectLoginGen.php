@@ -8,8 +8,10 @@
 
 namespace datagen;
 
-include_once('IncorrectUserEmailGen.php');
-
+/**
+ * Class IncorrectLoginGen
+ * @package datagen
+ */
 class IncorrectLoginGen extends IncorrectUserEmailGen
 {
 }

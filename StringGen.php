@@ -8,6 +8,10 @@
 
 namespace datagen;
 
+/**
+ * Class StringGen
+ * @package datagen
+ */
 class StringGen
 {
     private $charsL = ['a', 's', 'd', 'f', 'g',

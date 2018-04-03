@@ -8,9 +8,15 @@
 
 namespace datagen;
 
-
+/**
+ * Class IncorrectBarcodeGen
+ * @package datagen
+ */
 class IncorrectBarcodeGen
 {
+    /**
+     * @return string
+     */
     public function gen()
     {
         return 'Dcd-df$';

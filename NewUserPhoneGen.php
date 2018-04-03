@@ -8,8 +8,10 @@
 
 namespace datagen;
 
-include_once('UserPhoneGen.php');
-
+/**
+ * Class NewUserPhoneGen
+ * @package datagen
+ */
 class NewUserPhoneGen extends UserPhoneGen
 {
 }

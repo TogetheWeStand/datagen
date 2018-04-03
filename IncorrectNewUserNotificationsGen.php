@@ -8,8 +8,10 @@
 
 namespace datagen;
 
-include_once('IncorrectNewUserNewsGen.php');
-
+/**
+ * Class IncorrectNewUserNotificationsGen
+ * @package datagen
+ */
 class IncorrectNewUserNotificationsGen extends IncorrectNewUserNewsGen
 {
 }
