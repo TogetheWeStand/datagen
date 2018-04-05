@@ -8,6 +8,8 @@
 
 namespace datagen;
 
+use Esizov\datagen\base\GetFileDataByRegExp;
+
 /**
  * Class ArticleGen
  * @package datagen

@@ -1,12 +1,10 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: evgeniy.sizov
- * Date: 29.03.18
- * Time: 9:41
- */
+
+declare(strict_types = 1);
 
 namespace datagen;
+
+use Esizov\datagen\base\StringGen;
 
 /**
  * Class UserNameGen

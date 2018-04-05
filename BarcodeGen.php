@@ -8,6 +8,8 @@
 
 namespace datagen;
 
+use Esizov\datagen\base\GetFileDataByRegExp;
+
 /**
  * Class BarcodeGen
  * @package datagen

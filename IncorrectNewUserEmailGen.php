@@ -8,6 +8,8 @@
 
 namespace datagen;
 
+use Esizov\datagen\base\IncorrectUserEmailGen;
+
 /**
  * Class IncorrectNewUserEmailGen
  * @package datagen

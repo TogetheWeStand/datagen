@@ -19,29 +19,16 @@
  * in root directory of application.
  */
 
+declare(strict_types = 1);
+
 namespace datagen;
+
+use Esizov\datagen\base\Process;
 
 include_once('includes.php');
 
 $cli = !isset($_GET['count']);
 $count = $cli ? $argv['1'] : $_GET['count'];
-
-/**
- * @param string $param param name from schema
- * @return string full path to class file
- */
-function _genClassName($param)
-{
-    $classPostfix = 'Gen';
-    $subNameArr = explode('_', $param);
-    $className = '';
-
-    foreach ($subNameArr as $subName) {
-        $className .= ucfirst($subName);
-    }
-
-    return 'datagen\\' . $className . $classPostfix;
-}
 
 $schema = file_get_contents('schema.json');
 
@@ -66,7 +53,7 @@ $splitter = ',';
 for ($i = 0; $i < $count; $i++) {
     foreach ($properties as $key => $prop) {
 
-        $className = _genClassName($key);
+        $className = Process::genClassName($key);
         $model = new $className(null, null, null, $set['user_name'], $set['user_password']);
         $set[$key] = $model->gen();
     }

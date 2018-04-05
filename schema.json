@@ -18,7 +18,6 @@
             "description": "Phone number. See MSISDN",
             "type": "string"
         },
-
         "incorrect_user_name": {
             "description": "May be empty",
             "type": "string"

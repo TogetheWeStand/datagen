@@ -1,12 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: evgeniy.sizov
- * Date: 29.03.18
- * Time: 9:08
- */
 
-namespace datagen;
+declare(strict_types = 1);
+
+namespace Esizov\datagen\base;
 
 /**
  * Class StringGen
