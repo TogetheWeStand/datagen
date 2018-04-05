@@ -12,6 +12,7 @@ class Process
     private const DATAGEN_PREFIX = 'Datagen';
     private const BASE_PREFIX = 'base\\';
     private const FIRST_LVL_PREFIX = 'First\Level\\';
+    private const SECOND_LVL_PREFIX = 'Second\Level\\';
 
     /**
      * @param string $param param name from schema
@@ -32,6 +33,8 @@ class Process
             $prefix .= self::BASE_PREFIX;
         } elseif (in_array($className . $classPostfix . '.php', scandir(  '/app/' . lcfirst(self::DATAGEN_PREFIX) . '/first-level'))) {
             $prefix .= self::FIRST_LVL_PREFIX;
+        } elseif (in_array($className . $classPostfix . '.php', scandir(  '/app/' . lcfirst(self::DATAGEN_PREFIX) . '/second-level'))) {
+            $prefix .= self::SECOND_LVL_PREFIX;
         }
 
         return $prefix . $className . $classPostfix;

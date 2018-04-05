@@ -3,43 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="7779f053-b463-4a14-80ad-ae81cf699d29" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ArticleGen.php" afterPath="$PROJECT_DIR$/first-level/ArticleGen.php" />
-      <change beforePath="$PROJECT_DIR$/BarcodeGen.php" afterPath="$PROJECT_DIR$/first-level/BarcodeGen.php" />
-      <change beforePath="$PROJECT_DIR$/IncorrectLoginGen.php" afterPath="$PROJECT_DIR$/first-level/IncorrectLoginGen.php" />
-      <change beforePath="$PROJECT_DIR$/IncorrectNewUserEmailGen.php" afterPath="$PROJECT_DIR$/first-level/IncorrectNewUserEmailGen.php" />
-      <change beforePath="$PROJECT_DIR$/IncorrectNewUserNameGen.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/IncorrectNewUserNotificationsGen.php" afterPath="$PROJECT_DIR$/first-level/IncorrectNewUserNotificationsGen.php" />
-      <change beforePath="$PROJECT_DIR$/IncorrectNewUserPasswordGen.php" afterPath="$PROJECT_DIR$/IncorrectNewUserPasswordGen.php" />
-      <change beforePath="$PROJECT_DIR$/IncorrectNewUserPhoneGen.php" afterPath="$PROJECT_DIR$/IncorrectNewUserPhoneGen.php" />
-      <change beforePath="$PROJECT_DIR$/IncorrectPasswordGen.php" afterPath="$PROJECT_DIR$/IncorrectPasswordGen.php" />
-      <change beforePath="$PROJECT_DIR$/IncorrectUserPasswordGen.php" afterPath="$PROJECT_DIR$/first-level/IncorrectUserPasswordGen.php" />
-      <change beforePath="$PROJECT_DIR$/IncorrectUserPhoneGen.php" afterPath="$PROJECT_DIR$/first-level/IncorrectUserPhoneGen.php" />
-      <change beforePath="$PROJECT_DIR$/LoginGen.php" afterPath="$PROJECT_DIR$/LoginGen.php" />
-      <change beforePath="$PROJECT_DIR$/NewUserEmailGen.php" afterPath="$PROJECT_DIR$/NewUserEmailGen.php" />
-      <change beforePath="$PROJECT_DIR$/NewUserNameGen.php" afterPath="$PROJECT_DIR$/NewUserNameGen.php" />
-      <change beforePath="$PROJECT_DIR$/NewUserNotificationsGen.php" afterPath="$PROJECT_DIR$/first-level/NewUserNotificationsGen.php" />
-      <change beforePath="$PROJECT_DIR$/NewUserPasswordGen.php" afterPath="$PROJECT_DIR$/NewUserPasswordGen.php" />
-      <change beforePath="$PROJECT_DIR$/NewUserPhoneGen.php" afterPath="$PROJECT_DIR$/NewUserPhoneGen.php" />
-      <change beforePath="$PROJECT_DIR$/NonExistsBarcodeGen.php" afterPath="$PROJECT_DIR$/first-level/NonExistsBarcodeGen.php" />
-      <change beforePath="$PROJECT_DIR$/PasswordGen.php" afterPath="$PROJECT_DIR$/PasswordGen.php" />
-      <change beforePath="$PROJECT_DIR$/UserEmailGen.php" afterPath="$PROJECT_DIR$/first-level/UserEmailGen.php" />
-      <change beforePath="$PROJECT_DIR$/UserNameGen.php" afterPath="$PROJECT_DIR$/first-level/UserNameGen.php" />
-      <change beforePath="$PROJECT_DIR$/UserPasswordGen.php" afterPath="$PROJECT_DIR$/first-level/UserPasswordGen.php" />
-      <change beforePath="$PROJECT_DIR$/UserPhoneGen.php" afterPath="$PROJECT_DIR$/first-level/UserPhoneGen.php" />
-      <change beforePath="$PROJECT_DIR$/base/GetFileDataByRegExp.php" afterPath="$PROJECT_DIR$/base/GetFileDataByRegExp.php" />
-      <change beforePath="$PROJECT_DIR$/base/IncorrectArticleGen.php" afterPath="$PROJECT_DIR$/base/IncorrectArticleGen.php" />
-      <change beforePath="$PROJECT_DIR$/base/IncorrectBarcodeGen.php" afterPath="$PROJECT_DIR$/base/IncorrectBarcodeGen.php" />
-      <change beforePath="$PROJECT_DIR$/base/IncorrectNewUserBirthDateGen.php" afterPath="$PROJECT_DIR$/base/IncorrectNewUserBirthDateGen.php" />
-      <change beforePath="$PROJECT_DIR$/base/IncorrectNewUserGenderGen.php" afterPath="$PROJECT_DIR$/base/IncorrectNewUserGenderGen.php" />
-      <change beforePath="$PROJECT_DIR$/base/IncorrectNewUserNewsGen.php" afterPath="$PROJECT_DIR$/base/IncorrectNewUserNewsGen.php" />
-      <change beforePath="$PROJECT_DIR$/base/IncorrectUserEmailGen.php" afterPath="$PROJECT_DIR$/base/IncorrectUserEmailGen.php" />
-      <change beforePath="$PROJECT_DIR$/base/IncorrectUserNameGen.php" afterPath="$PROJECT_DIR$/base/IncorrectUserNameGen.php" />
-      <change beforePath="$PROJECT_DIR$/base/NewUserBirthDateGen.php" afterPath="$PROJECT_DIR$/base/NewUserBirthDateGen.php" />
-      <change beforePath="$PROJECT_DIR$/base/NewUserGenderGen.php" afterPath="$PROJECT_DIR$/base/NewUserGenderGen.php" />
-      <change beforePath="$PROJECT_DIR$/base/NewUserNewsGen.php" afterPath="$PROJECT_DIR$/base/NewUserNewsGen.php" />
+      <change beforePath="$PROJECT_DIR$/IncorrectNewUserPasswordGen.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/IncorrectNewUserPhoneGen.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/IncorrectPasswordGen.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/LoginGen.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NewUserEmailGen.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NewUserNameGen.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NewUserPasswordGen.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/NewUserPhoneGen.php" afterPath="$PROJECT_DIR$/second-level/NewUserPhoneGen.php" />
+      <change beforePath="$PROJECT_DIR$/PasswordGen.php" afterPath="" />
       <change beforePath="$PROJECT_DIR$/base/Process.php" afterPath="$PROJECT_DIR$/base/Process.php" />
-      <change beforePath="$PROJECT_DIR$/base/StringGen.php" afterPath="$PROJECT_DIR$/base/StringGen.php" />
-      <change beforePath="$PROJECT_DIR$/generator.php" afterPath="$PROJECT_DIR$/generator.php" />
       <change beforePath="$PROJECT_DIR$/includes.php" afterPath="$PROJECT_DIR$/includes.php" />
       <change beforePath="$PROJECT_DIR$/mockingdata.json" afterPath="$PROJECT_DIR$/mockingdata.json" />
     </list>
@@ -52,101 +25,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="generator.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generator.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Process.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Process.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base/Process.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="162">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mockingdata.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mockingdata.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NonExistsBarcodeGen.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/first-level/NonExistsBarcodeGen.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="includes.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="includes.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="252">
+              <caret line="14" column="55" lean-forward="true" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IncorrectPasswordGen.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/second-level/IncorrectPasswordGen.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginGen.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/second-level/LoginGen.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="NewUserEmailGen.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewUserEmailGen.php">
+        <entry file="file://$PROJECT_DIR$/second-level/NewUserEmailGen.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="36">
+              <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="NewUserNameGen.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewUserNameGen.php">
+        <entry file="file://$PROJECT_DIR$/second-level/NewUserNameGen.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="43" />
+            <state relative-caret-position="36">
+              <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="NewUserPasswordGen.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewUserPasswordGen.php">
+        <entry file="file://$PROJECT_DIR$/second-level/NewUserPasswordGen.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="47" />
+            <state relative-caret-position="36">
+              <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="NewUserPhoneGen.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewUserPhoneGen.php">
+        <entry file="file://$PROJECT_DIR$/second-level/NewUserPhoneGen.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="44" />
+            <state relative-caret-position="36">
+              <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="PasswordGen.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PasswordGen.php">
+        <entry file="file://$PROJECT_DIR$/second-level/PasswordGen.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="36">
+              <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -167,20 +130,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BarcodeGen.php" />
-        <option value="$PROJECT_DIR$/IncorrectLoginGen.php" />
-        <option value="$PROJECT_DIR$/IncorrectNewUserEmailGen.php" />
-        <option value="$PROJECT_DIR$/IncorrectNewUserNameGen.php" />
-        <option value="$PROJECT_DIR$/IncorrectNewUserNotificationsGen.php" />
-        <option value="$PROJECT_DIR$/IncorrectUserPasswordGen.php" />
-        <option value="$PROJECT_DIR$/IncorrectUserPhoneGen.php" />
-        <option value="$PROJECT_DIR$/NonExistsBarcodeGen.php" />
-        <option value="$PROJECT_DIR$/UserEmailGen.php" />
         <option value="$PROJECT_DIR$/UserNameGen.php" />
         <option value="$PROJECT_DIR$/UserPasswordGen.php" />
         <option value="$PROJECT_DIR$/UserPhoneGen.php" />
         <option value="$PROJECT_DIR$/NewUserNotificationsGen.php" />
-        <option value="$PROJECT_DIR$/includes.php" />
         <option value="$PROJECT_DIR$/IncorrectNewUserPasswordGen.php" />
         <option value="$PROJECT_DIR$/IncorrectNewUserPhoneGen.php" />
         <option value="$PROJECT_DIR$/IncorrectPasswordGen.php" />
@@ -217,7 +170,17 @@
         <option value="$PROJECT_DIR$/first-level/UserPasswordGen.php" />
         <option value="$PROJECT_DIR$/first-level/UserPhoneGen.php" />
         <option value="$PROJECT_DIR$/generator.php" />
+        <option value="$PROJECT_DIR$/second-level/IncorrectNewUserPasswordGen.php" />
+        <option value="$PROJECT_DIR$/second-level/IncorrectNewUserPhoneGen.php" />
+        <option value="$PROJECT_DIR$/second-level/IncorrectPasswordGen.php" />
+        <option value="$PROJECT_DIR$/second-level/LoginGen.php" />
+        <option value="$PROJECT_DIR$/second-level/NewUserEmailGen.php" />
+        <option value="$PROJECT_DIR$/second-level/NewUserNameGen.php" />
+        <option value="$PROJECT_DIR$/second-level/NewUserPasswordGen.php" />
+        <option value="$PROJECT_DIR$/second-level/NewUserPhoneGen.php" />
+        <option value="$PROJECT_DIR$/second-level/PasswordGen.php" />
         <option value="$PROJECT_DIR$/base/Process.php" />
+        <option value="$PROJECT_DIR$/includes.php" />
       </list>
     </option>
   </component>
@@ -269,6 +232,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/second-level" />
       <recent name="$PROJECT_DIR$/first-level" />
       <recent name="$PROJECT_DIR$/base" />
     </key>
@@ -308,17 +272,18 @@
       <workItem from="1522821392281" duration="8848000" />
       <workItem from="1522917942456" duration="721000" />
       <workItem from="1522923753727" duration="4641000" />
-      <workItem from="1522931586347" duration="4245000" />
+      <workItem from="1522931586347" duration="5655000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36269000" />
+    <option name="totallyTimeSpent" value="37679000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22275642" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22275642" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -407,7 +372,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PasswordGen.php">
+    <entry file="file://$PROJECT_DIR$/second-level/PasswordGen.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
@@ -657,90 +622,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IncorrectNewUserPasswordGen.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IncorrectNewUserPhoneGen.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IncorrectPasswordGen.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LoginGen.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NewUserEmailGen.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NewUserNameGen.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NewUserPasswordGen.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NewUserPhoneGen.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PasswordGen.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/generator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -753,18 +638,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mockingdata.json">
+    <entry file="file://$PROJECT_DIR$/second-level/IncorrectNewUserPasswordGen.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="144">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second-level/IncorrectNewUserPhoneGen.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second-level/IncorrectPasswordGen.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second-level/LoginGen.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second-level/NewUserEmailGen.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second-level/NewUserNameGen.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second-level/NewUserPasswordGen.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second-level/NewUserPhoneGen.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second-level/PasswordGen.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/base/Process.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="162">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mockingdata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="55" lean-forward="true" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
           <folding />
         </state>
       </provider>
