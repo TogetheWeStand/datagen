@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace datagen;
+namespace Esizov\Datagen\First\Level;
 
-use Esizov\datagen\base\StringGen;
+use Esizov\Datagen\base\StringGen;
 
 /**
  * Class UserNameGen

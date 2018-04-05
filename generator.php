@@ -21,9 +21,9 @@
 
 declare(strict_types = 1);
 
-namespace datagen;
+namespace Esizov\Datagen;
 
-use Esizov\datagen\base\Process;
+use Esizov\Datagen\base\Process;
 
 include_once('includes.php');
 

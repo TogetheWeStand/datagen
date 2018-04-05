@@ -1,6 +1,8 @@
 <?php
 
-namespace datagen;
+namespace Esizov\datagen;
+
+use Esizov\Datagen\First\Level\IncorrectUserPhoneGen;
 
 /**
  * Class IncorrectNewUserPhoneGen

@@ -1,8 +1,8 @@
 <?php
 
-namespace datagen;
+namespace Esizov\Datagen\First\Level;
 
-use Esizov\datagen\base\NewUserNewsGen;
+use Esizov\Datagen\base\NewUserNewsGen;
 
 /**
  * Class NewUserNotificationsGen

@@ -1,6 +1,6 @@
 <?php
 
-namespace Esizov\datagen\base;
+namespace Esizov\Datagen\base;
 
 /**
  * Class IncorrectBarcodeGen

@@ -1,8 +1,8 @@
 <?php
 
-namespace datagen;
+namespace Esizov\Datagen\First\Level;
 
-use Esizov\datagen\base\IncorrectUserEmailGen;
+use Esizov\Datagen\base\IncorrectUserEmailGen;
 
 /**
  * Class IncorrectLoginGen

@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Esizov\datagen\base;
+namespace Esizov\Datagen\base;
 
 /**
  * Class StringGen

@@ -1,17 +1,17 @@
 <?php
 
-namespace datagen;
+namespace Esizov\Datagen\First\Level;
 
-use Esizov\datagen\base\StringGen;
+use Esizov\Datagen\base\StringGen;
 
 /**
- * Class UserPasswordGen
+ * Class IncorrectUserPasswordGen
  * @package datagen
  */
-class UserPasswordGen extends StringGen
+class IncorrectUserPasswordGen extends StringGen
 {
     /**
-     * UserPasswordGen constructor.
+     * IncorrectUserPasswordGen constructor.
      * @param string $charSet
      * @param bool $withNums
      * @param bool $randUpper
@@ -19,7 +19,7 @@ class UserPasswordGen extends StringGen
      */
     public function __construct($charSet, $withNums, $randUpper, $userName)
     {
-        parent::__construct($charSet, true, true);
+        parent::__construct($charSet, $withNums, $randUpper);
     }
 
     /**
@@ -28,6 +28,6 @@ class UserPasswordGen extends StringGen
      */
     public function gen($length = 0)
     {
-        return parent::gen(mt_rand(6,12));
+        return parent::gen(mt_rand(0,5));
     }
 }

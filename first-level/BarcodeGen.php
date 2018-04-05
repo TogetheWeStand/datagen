@@ -6,9 +6,9 @@
  * Time: 9:41
  */
 
-namespace datagen;
+namespace Esizov\Datagen\First\Level;
 
-use Esizov\datagen\base\GetFileDataByRegExp;
+use Esizov\Datagen\base\GetFileDataByRegExp;
 
 /**
  * Class BarcodeGen

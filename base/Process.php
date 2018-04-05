@@ -1,11 +1,17 @@
 <?php
 
-namespace Esizov\datagen\base;
+namespace Esizov\Datagen\base;
 
+/**
+ * Class Process
+ * @package Esizov\datagen\base
+ */
 class Process
 {
-    private const DATAGEN_PREFIX = 'datagen\\';
+    private const VENDOR_NAME = 'Esizov\\';
+    private const DATAGEN_PREFIX = 'Datagen';
     private const BASE_PREFIX = 'base\\';
+    private const FIRST_LVL_PREFIX = 'First\Level\\';
 
     /**
      * @param string $param param name from schema
@@ -13,7 +19,7 @@ class Process
      */
     public static function genClassName($param)
     {
-        $prefix = self::DATAGEN_PREFIX;
+        $prefix = self::VENDOR_NAME . self::DATAGEN_PREFIX . '\\';
         $classPostfix = 'Gen';
         $subNameArr = explode('_', $param);
         $className = '';
@@ -23,7 +29,9 @@ class Process
         }
 
         if (in_array($className . $classPostfix . '.php', scandir(__DIR__))) {
-            $prefix = 'Esizov\\' . $prefix . self::BASE_PREFIX;
+            $prefix .= self::BASE_PREFIX;
+        } elseif (in_array($className . $classPostfix . '.php', scandir(  '/app/' . lcfirst(self::DATAGEN_PREFIX) . '/first-level'))) {
+            $prefix .= self::FIRST_LVL_PREFIX;
         }
 
         return $prefix . $className . $classPostfix;
