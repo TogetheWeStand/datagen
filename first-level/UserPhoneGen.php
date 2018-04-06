@@ -10,6 +10,8 @@ use Esizov\Datagen\base\StringGen;
  */
 class UserPhoneGen extends StringGen
 {
+    private const RU_COUNTRY_CODE = '7';
+
     /**
      * UserPhoneGen constructor.
      * @param string $charSet
@@ -28,6 +30,6 @@ class UserPhoneGen extends StringGen
      */
     public function gen($length = 0)
     {
-        return parent::gen(mt_rand(10,15));
+        return self::RU_COUNTRY_CODE . parent::gen(10);
     }
 }
