@@ -56,19 +56,6 @@ class StringGen
     }
 
     /**
-     * @return mixed|string
-     */
-    private function __genRandomChar()
-    {
-       if ($this->randUper) {
-           return mt_rand(0, 1) === 1 ? strtoupper($this->charSet[mt_rand(0, $this->charSetBorder)]) :
-                                                   $this->charSet[mt_rand(0, $this->charSetBorder)];
-       } else {
-           return $this->charSet[mt_rand(0, $this->charSetBorder)];
-       }
-    }
-
-    /**
      * @param int $length
      * @return string
      */
@@ -89,5 +76,18 @@ class StringGen
         }
 
         return $string;
+    }
+
+    /**
+     * @return mixed|string
+     */
+    private function __genRandomChar()
+    {
+        if ($this->randUper) {
+            return mt_rand(0, 1) === 1 ? strtoupper($this->charSet[mt_rand(0, $this->charSetBorder)]) :
+                $this->charSet[mt_rand(0, $this->charSetBorder)];
+        } else {
+            return $this->charSet[mt_rand(0, $this->charSetBorder)];
+        }
     }
 }
